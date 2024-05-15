@@ -1,0 +1,331 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="AI for Scaling Legal Reform: Mapping and Redacting Racial Covenants in Santa Clara County"
+    />
+    <meta
+      property="og:title"
+      content="AI for Scaling Legal Reform: Mapping and Redacting Racial Covenants in Santa Clara County"
+    />
+    <meta
+      property="og:description"
+      content="A novel approach to addressing racial covenants in property deeds using machine learning and responsible operational practice."
+    />
+    <meta
+      property="og:url"
+      content="https://racialcovenants.reglab.github.io"
+    />
+    <meta property="og:image" content="static/image/your_banner_image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <meta
+      name="twitter:title"
+      content="AI for Scaling Legal Reform: Mapping and Redacting Racial Covenants"
+    />
+    <meta
+      name="twitter:description"
+      content="Using machine learning to identify and redact racial covenants in Santa Clara County property deeds."
+    />
+    <meta
+      name="keywords"
+      content="racial covenants, machine learning, legal reform, Santa Clara County, property deeds"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>
+      AI for Scaling Legal Reform: Mapping and Redacting Racial Covenants in
+      Santa Clara County
+    </title>
+    <link rel="icon" type="image/x-icon" href="static/images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="static/css/bulma.min.css" />
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css" />
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css" />
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <link rel="stylesheet" href="static/css/index.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+    <script defer src="static/js/fontawesome.all.min.js"></script>
+    <script src="static/js/bulma-carousel.min.js"></script>
+    <script src="static/js/bulma-slider.min.js"></script>
+    <script src="static/js/index.js"></script>
+  </head>
+  <body>
+    <section class="hero">
+      <div class="hero-body" style="padding-bottom: 1em">
+        <div class="container is-max-desktop">
+          <div class="columns is-centered">
+            <div class="column has-text-centered">
+              <h1 class="title is-1 publication-title">
+                AI for Scaling Legal Reform: Mapping and Redacting Racial
+                Covenants in Santa Clara County
+              </h1>
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"> Faiz Surani<sup>*</sup>, </span>
+                <span class="author-block"> Mirac Suzgun<sup>*</sup>, </span>
+                <span class="author-block"> Vyoma Raman, </span>
+                <span class="author-block"> Christopher D. Manning, </span>
+                <span class="author-block"> Peter Henderson, </span>
+                <span class="author-block"> Daniel E. Ho<sup>†</sup> </span>
+              </div>
+
+              <div class="affiliations" style="font-size: 0.9em">
+                <span class="affiliation">Stanford University</span>
+                <span class="affiliation-separator">·</span>
+                <span class="affiliation">Princeton University</span>
+              </div>
+
+              <div class="is-size-6 author-notes">
+                <span><sup>*</sup>Equal Contribution</span>
+                <span class="author-notes-separator">·</span>
+                <span
+                  ><sup>†</sup>Corresponding Author: deho [at] stanford [dot]
+                  edu</span
+                >
+              </div>
+
+              <div class="content-warning">
+                <p>
+                  <em
+                    >Warning: This website contains offensive racial terms from
+                    historical deed documents.</em
+                  >
+                </p>
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                  <div class="mb-2">
+                    <span class="link-block">
+                      <a
+                        href="https://dho.stanford.edu/wp-content/uploads/Covenants.pdf"
+                        target="_blank"
+                        class="external-link button is-normal is-rounded is-dark"
+                      >
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+                    <span class="link-block">
+                      <a
+                        href="static/maps/dotmap.html"
+                        target="_blank"
+                        class="external-link button is-normal is-rounded is-dark"
+                      >
+                        <span class="icon">
+                          <i class="fas fa-map"></i>
+                        </span>
+                        <span>Covenant Map</span>
+                      </a>
+                    </span>
+                    <span class="link-block">
+                      <a
+                        href="static/maps/dotmap_animated.html"
+                        target="_blank"
+                        class="external-link button is-normal is-rounded is-dark"
+                      >
+                        <span class="icon">
+                          <i class="fas fa-map"></i>
+                        </span>
+                        <span>Time Lapse Map</span>
+                      </a>
+                    </span>
+                  </div>
+                  <div>
+                    <span class="link-block">
+                      <a
+                        href="https://huggingface.co/reglab-rrc/mistral-rrc"
+                        target="_blank"
+                        class="external-link button is-normal is-rounded is-dark"
+                      >
+                        <span class="icon">
+                          <i class="fas fa-robot"></i>
+                        </span>
+                        <span>Model</span>
+                      </a>
+                    </span>
+                    <span class="link-block">
+                      <a
+                        href="faq.html"
+                        class="external-link button is-normal is-rounded is-dark"
+                      >
+                        <span class="icon">
+                          <i class="fas fa-question-circle"></i>
+                        </span>
+                        <span>FAQ</span>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-8 has-text-centered">
+            <figure
+              class="image rough-edge"
+              style="max-width: 700px; margin: 0 auto"
+            >
+              <img
+                src="static/images/rrc_example.png"
+                alt="Example of a racial covenant document"
+                style="
+                  box-shadow:
+                    0 2px 4px 0 rgba(0, 0, 0, 0.1),
+                    0 3px 10px 0 rgba(0, 0, 0, 0.09);
+                "
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="abstract section hero is-light">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                Legal reform can be challenging in light of the volume, complexity, and interdependence of laws, codes, and records. One salient example of this challenge is the effort to restrict and remove racially restrictive covenants, clauses in property deeds that historically barred individuals of specific races from purchasing homes. Despite the Supreme Court holding such racial covenants unenforceable in 1948, they persist in property records across the United States. 
+                Many jurisdictions have moved to identify and strike these provisions, including California, which mandated in 2021 that all counties implement such a process. Yet the scale can be overwhelming, with Santa Clara County (SCC) alone having over 24 million property deed documents, making purely manual review infeasible. We present a novel approach to addressing this pressing issue, developed through a partnership with the SCC Clerk-Recorder's Office. First, we leverage an open large language model, fine-tuned to detect racial covenants with high precision and recall. We estimate that this system reduces manual efforts by 86,500 person hours and costs less than 2% of the cost for a comparable off-the-shelf closed model.  Second, we illustrate the County's integration of this model into responsible operational practice, including legal review and the creation of a historical registry, and release our model to assist the hundreds of jurisdictions engaged in similar efforts. Finally, our results reveal distinct periods of utilization of racial covenants, sharp geographic clustering, and the disproportionate role of a small number of developers in maintaining housing discrimination. We estimate that by 1950, <em>one in four</em> properties across the County were subject to racial covenants. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="results">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">Findings</h2>
+            <div class="content has-text-justified">
+              <iframe
+                src="static/maps/dotmap_embedded.html"
+                width="100%"
+                height="600"
+                style="border: none"
+              ></iframe>
+              <p style="font-size: 0.9em; margin-top: 10px">
+                <b>Figure 7:</b> Clusters of racial covenants on an interactive
+                map of modern-day Santa Clara County. Some of the largest and
+                most notable racially restricted developments are shown in red.
+                Dots represent individual subdivisions and are scaled in
+                proportion to the number of racial covenants within the
+                subdivision.
+              </p>
+              <img
+                width="100%"
+                src="./static/images/race_analysis.png"
+                alt="Distribution of racial covenants over time"
+                style="margin-top: 20px"
+              />
+              <img
+                width="100%"
+                src="./static/images/excluded_groups_over_time_bar.png"
+                alt="Distribution of racial covenants over time"
+                style="margin-top: 20px"
+              />
+              <p style="font-size: 0.9em; margin-top: 10px">
+                <b>Figure 8:</b> <b>Top:</b> Number of property deeds with
+                restrictive covenants from 1905--1974, divided by whether
+                specific racial groups were excluded or only white/Caucasian
+                individuals were permitted. Most pre-1915 covenants specifically
+                exclude Black and Asian individuals, but the vast majority of
+                later covenants are white-only. The small number of restrictive
+                covenants matched after 1970 consists largely of older deeds
+                filed for reference, rather than new restrictive covenants being
+                introduced. <b>Bottom:</b> The number of occurrences of specific
+                racial groups in covenants that exclude specific groups. East
+                Asian and Black were by far the most commonly excluded
+                demographics, but some covenants targeted other groups, such as
+                Italian, Portuguese, Indian, and Mexican individuals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hero is-light" id="acknowledgments">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">Acknowledgments</h2>
+            <div class="content has-text-justified"></div>
+              <p>
+                We thank Nikita Bhardwaj and Helen Gu for research assistance;
+                Gina Alcomendras, Louis Chiaramonte, Robert Fannion, Greta
+                Hansen, Margaret Pula, Anthony Serafica, and Genevieve
+                Singh-Hanzlick for the collaboration; Ananya Karthik and Allison
+                Casasola for labeling assistance; and Greg Ablavsky, Michael
+                Corey, Kirsten Delegard, Sarah DeMott, Dan Jurafsky, Gideon
+                Lichfield, Varun Magesh, Erin Maneri, Derek Ouyang, Claire Lazar
+                Reich, Kit Rodolfa, Kyle Swanson, and Andrea Vallebueno for
+                helpful feedback and comments.
+              </p>
+              <p>
+                For other commendable efforts to map racial covenants, see the
+                <a
+                  href="https://www.nationalcovenantsresearchcoalition.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  National Covenants Research Coalition</a
+                >.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section hero" id="BibTeX">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">BibTeX</h2>
+            <div class="content">
+              <pre style="text-align: left"><code>@article{suranisuzgun2024,
+  title={AI for Scaling Legal Reform: Mapping and Redacting Racial Covenants in Santa Clara County},
+  author={Surani, Faiz and Suzgun, Mirac and Raman, Vyoma and Manning, Christopher D. and Henderson, Peter and Ho, Daniel E.},
+  journal={Stanford RegLab Working Paper},
+  year={2024}
+  url={https://dho.stanford.edu/wp-content/uploads/Covenants.pdf}
+}</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" style="padding: 1rem 1.5rem;">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p><a href="index.html">Home</a> | <a href="faq.html">FAQ</a></p>
+          <p>© 2024 Stanford RegLab. All rights reserved.</p>
+          <p class="is-size-7 has-text-grey">Website made with the <a href="https://eliahuhorwitz.github.io/Academic-project-page-template/" class="has-text-grey">Academic Project Page Template</a>.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
